@@ -13,7 +13,7 @@ insert into st2 values(116,450,'C','fail');
 select * from st2;
 delete from st2  where rollno = 112 and result='pass';
 
-set sql_safe_updates =0;
+-- set sql_safe_updates= 0;
 select * from st2;
 create table st3(rollno int,marks int,grade varchar(10),result varchar(10));
 insert into st3 values(111,670,'A','pass');
